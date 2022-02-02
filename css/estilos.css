@@ -1,0 +1,577 @@
+* {
+    margin: 0px;
+
+}
+
+/*general*/
+.bodycolor {
+    background-color: lightblue;
+}
+
+
+
+h2 {
+    margin-left: 20px;
+    margin-top: 10%;
+    padding-bottom: 5px;
+    margin-top: 5%;
+    font-size:xx-large;
+
+}
+
+h3{
+font-size: large;
+}
+ /*formularios*/
+ .formulario {
+    padding-right: 15px;
+    border: solid;
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+
+.legend{
+    font-size: medium;
+}
+
+.label{
+    font-size: medium;
+    
+}
+
+/*carrousel*/
+.fotolibro{
+    width: 10%;
+    margin-left: 30px;
+
+}
+
+
+
+
+/*footer*/
+.misredes {
+    height: 60px;
+    margin-top: 20px;
+    background-image:linear-gradient(lightblue 2%, skyblue 20%);
+    display: flex;
+    align-items: baseline;
+    justify-content: safe;
+}
+
+.misredes ul i {
+    color: gray;
+    font-size: 220%;
+
+}
+
+.misredes ul i:hover {
+    color: beige;
+}
+
+/*desktop*/
+@media (min-width:1024px) {
+
+    /*parte del logo*/
+    header {
+        margin-top: 0px;
+        background-image:linear-gradient( skyblue, beige );
+        margin: 10px;
+        height: 220px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+  
+
+    .logo {
+        height: 89%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 1%;
+
+    }
+
+    .piedefoto {
+        padding-bottom: 15px;
+        padding-left: 15px;
+        font-size: small;
+    }
+
+
+    .tipslistas {
+        padding-top: 25px;
+        margin-left: 20px;
+
+    }
+
+    /*barra de menu*/
+    /* .navbar {
+        display: flex;
+        flex-direction: row;
+        background-color: beige;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 50px;
+        
+    }
+
+    .navitem {
+        list-style-type: none;
+        margin-right: 30px;
+        padding: 1px;
+        font-size: medium;
+
+    }
+
+    .navitem a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .navitem a:hover {
+        text-decoration: underline;
+        color: cadetblue;
+    } */
+
+    body {
+        margin-left: 15px;
+    }
+
+    /* blog de viajes*/
+
+    .gridgaleria {
+        display: grid;
+        grid-area: "img1 img2 img3"
+            "img4 img5 img6"
+            "img7 img8 img9";
+        grid-template-columns: 32% 32% 32%;
+        grid-template-rows: 32% 32% 32%;
+        width: 97.5%;
+        height: 600px;
+        padding-top: 2%;
+        justify-content: space-around;
+
+    }
+
+    .fotoarg {
+        border: solid;
+        height: 139px;
+        width: 301px;
+    }
+
+    .misviajes {
+        margin-left: 2%;
+    }
+
+    .listablog {
+        color: cadetblue;
+        padding-left: 15px;
+
+    }
+
+    .listablog a {
+        text-decoration: none;
+        color: cadetblue;
+
+    }
+
+    .listablog a:hover {
+        text-decoration: underline black;
+    }
+
+    .viajes {
+        margin-top: 2%;
+        margin-left: 3%;
+        margin-bottom: 1%;
+
+    }
+
+    .viajes h3 {
+        margin-left: -1%;
+    }
+
+
+    .imagenes {
+        border-style: solid;
+        margin-top: 20px;
+    }
+
+    /*grid del index*/
+
+    .gridinicio {
+        margin: 2%;
+        display: grid;
+        grid-template-areas: "texto img1";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+
+    }
+
+    .texto {
+        grid-area: texto;
+        padding: 20px;
+    }
+
+
+    .img1 {
+        grid-area: img1;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .imagenesjuntas {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+
+}
+
+/*tablet*/
+@media (min-width:480px) and (max-width:1023px) {
+
+    /*parte del logo */
+    header {
+        margin-top: 0px;
+       background-image: linear-gradient(skyblue, beige);
+        height: 220px;
+        margin: 10px;
+    }
+
+    .logo {
+        height: 89%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 1%;
+
+    }
+
+    .piedefoto {
+        padding-bottom: 15px;
+        padding-left: 15px;
+        font-size: small;
+    }
+
+
+    .tipslistas {
+        padding-top: 25px;
+        margin-left: 20px;
+
+    }
+
+    /*barra de menu*/
+    /* .navbar {
+        display: flex;
+        flex-direction: row;
+        background-color: beige;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 50px;
+        
+    }
+
+    .navitem {
+        list-style-type: none;
+        margin-right: 30px;
+        padding: 1px;
+
+    }
+
+    .navitem a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .navitem a:hover {
+        text-decoration: underline;
+        color: cadetblue;
+    } */
+
+    body {
+        margin-left: 15px;
+        margin-right: 1%;
+    }
+
+h1
+    /* blog de viajes*/
+
+    .gridgaleria {
+        display: grid;
+        grid-area:
+            "img1""img2"
+            "img3""img4"
+            "img5""img6"
+            "img7""img8"
+            "img9";
+        grid-template-columns: 50% 50%;
+        width: 100%;
+
+    }
+
+    h2 {
+        margin-top: 10%;
+    }
+
+    .fotoarg {
+        border: solid;
+        height: 139px;
+        width: 301px;
+    }
+
+    .misviajes {
+        margin-left: 2%;
+    }
+
+    .listablog {
+        color: cadetblue;
+        padding-left: 15px;
+
+    }
+
+    .listablog a {
+        text-decoration: none;
+        color: cadetblue;
+
+    }
+
+    .listablog a:hover {
+        text-decoration: underline black;
+    }
+
+    .viajes {
+        margin-top: 2%;
+        margin-left: 3%;
+        margin-bottom: 1%;
+
+    }
+
+    .viajes h3 {
+        margin-left: -1%;
+    }
+
+
+    .imagenes {
+        border-style: solid;
+        margin-top: 20px;
+    }
+
+    /*grid del index*/
+
+    .gridinicio {
+        margin: 2%;
+        display: grid;
+        grid-template-areas: "texto"
+            "img1";
+        grid-template-columns: 90% 90%;
+    }
+
+    .texto {
+        grid-area: texto;
+        margin-top: 2%;
+        text-align: center;
+        margin-left: 3%;
+    }
+
+    .img1 {
+        grid-area: img1;
+        margin-left: 20%;
+        margin-top: 1%;
+        justify-content: center;
+    }
+
+    .imagenesjuntas {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .formulario {
+        padding-right: 15px;
+    }
+}
+
+/*mobile*/
+@media (max-width:479px) {
+
+    /*parte del logo */
+    header {
+        margin-top: 0px;
+        background-image: linear-gradient(skyblue, beige);
+        height: 220px;
+        margin: 10px;
+    }
+
+    .logo {
+        height: 89%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 1%;
+
+    }
+
+    .piedefoto {
+        padding-bottom: 15px;
+        padding-left: 15px;
+        font-size: small;
+    }
+
+
+    .tipslistas {
+        padding-top: 25px;
+        margin-left: 20px;
+
+    }
+
+    /*barra de menu*/
+    /* .navbar {
+        display: flex;
+        flex-direction: column;
+        background-color: beige;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 100px;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    } */
+
+    /* .navitem {
+        list-style-type: none;
+        margin-right: 30px;
+        padding: 1px;
+
+    } */
+
+    /* .navitem a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .navitem a:hover {
+        text-decoration: underline;
+        color: cadetblue;
+    } */
+
+    h2 {
+        margin-top: 15%;
+    }
+
+    body {
+        margin-left: 15px;
+        margin-right: 1%;
+    }
+
+    /* blog de viajes*/
+
+    .gridgaleria {
+        display: grid;
+        grid-area:
+            "img1"
+            "img2"
+            "img3"
+            "img4"
+            "img5"
+            "img6"
+            "img7"
+            "img8"
+            "img9";
+        grid-template-columns: 90%;
+        width: 100%;
+
+    }
+
+    .fotoarg {
+        border: solid;
+        margin-top: 3%;
+        height: 139px;
+        width: 301px;
+    }
+
+    .mapas {
+        height: auto;
+        width: 80%;
+    }
+
+    .misviajes {
+        margin-left: 2%;
+    }
+
+    .listablog {
+        color: cadetblue;
+        padding-left: 15px;
+
+    }
+
+    .listablog a {
+        text-decoration: none;
+        color: cadetblue;
+
+    }
+
+    .listablog a:hover {
+        text-decoration: underline black;
+    }
+
+    .viajes {
+        margin-top: 2%;
+        margin-left: 3%;
+        margin-bottom: 1%;
+
+    }
+
+    .viajes h3 {
+        margin-left: -1%;
+    }
+
+
+    .imagenes {
+        border-style: solid;
+        margin-top: 20px;
+    }
+
+    /*grid del index*/
+
+    .gridinicio {
+        margin: 2%;
+        display: grid;
+        grid-template-areas: "texto"
+            "img1";
+        grid-template-columns: 90% 90%;
+    }
+
+    .texto {
+        grid-area: texto;
+        margin-top: 2%;
+        text-align: center;
+        margin-left: 3%;
+    }
+
+    .img1 {
+        grid-area: img1;
+        height: auto;
+        width: 300px;
+        margin-top: 1%;
+        margin-left: 4%;
+        justify-content: center;
+
+    }
+
+    .imagenesjuntas {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .formulario {
+        padding-right: 15px;
+    }
+}
